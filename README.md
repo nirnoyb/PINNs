@@ -1,4 +1,4 @@
-<h1>Title: Physics-Informed Neural Network for 2D Steady-State Heat Conduction</h1>h1>
+<h1>Title: Physics-Informed Neural Network for 2D Steady-State Heat Conduction</h1>
 
 
 <h2>This project implements a Physics-Informed Neural Network (PINN) to solve the steady-state 2D heat conduction equation without relying on labeled temperature data.
