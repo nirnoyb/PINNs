@@ -34,13 +34,6 @@ $$
 Interior points → random samples within the domain
 Boundary points → evenly spaced samples along edges
 
-2d-pinn-heat-conduction
-├── pinn_heat2d.py         # Main training script
-├── model.py               # PINN architecture
-├── utils.py               # Sampling and plotting utilities
-├── results/               # Saved plots and loss curves
-└── README.md              # Project documentation
-
 After training, the model predicts a smooth temperature distribution that satisfies the boundary conditions and Laplace’s equation.
 Typical output:
 Contour plot of predicted temperature
