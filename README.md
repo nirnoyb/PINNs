@@ -46,4 +46,5 @@ Contour plot of predicted temperature
 Training loss vs. iterations
 
 Nirnoy Barma
+
 Chemical Engineering Student, Jadavpur University
