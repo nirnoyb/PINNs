@@ -2,9 +2,7 @@ This project implements a Physics-Informed Neural Network (PINN) to solve the st
 The network learns the underlying physics directly from the governing partial differential equation (PDE) and boundary conditions.
 
 The goal is to solve the Laplace equation:
-$$
-\nabla^2 T(x, y) = 0
-$$
+∇2T(x,y)=0
 subject to fixed boundary temperatures.
 Instead of using numerical solvers like Finite Difference Method (FDM), this project uses a neural network trained to satisfy the PDE across the spatial domain.
 
