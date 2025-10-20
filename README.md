@@ -12,7 +12,7 @@ subject to fixed boundary temperatures.
 
 Instead of using numerical solvers like Finite Difference Method (FDM), this project uses a neural network trained to satisfy the PDE across the spatial domain.
 
-1. Network Architecture
+<h2>1. Network Architecture</h2>
 Fully-connected feedforward neural network (PINN)
 
 Activation: tanh
@@ -24,7 +24,7 @@ Input: spatial coordinates (x, y)
 Output: temperature T(x,y)
 
 
-3. Training Objective
+<h2>2. Training Objective</h2>
    
 The total loss combines:
 
@@ -34,7 +34,7 @@ Boundary loss: enforces known temperature conditions along the boundaries
 
 Total Loss=MSE(PDE) ​+ MSE(BC)​
 
-4. Sampling
+<h2>3. Sampling</h2>
    
 Interior points → random samples within the domain
 
